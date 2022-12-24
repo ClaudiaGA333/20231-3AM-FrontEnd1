@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
+    margin: 0 auto;
+    /* Margen Exterior */
+    background-color: rgb(182, 186, 247);
+    padding: 10px;
+    /* Margen Interior */
+    text-align: right;
+    /* Alineacion del texto */
+    border: 3px solid white;
+    /* Propiedades del borde : grosor, tipo, color */
+}
+
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    /*Donde esta el titulo de mi pagina*/
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.enlaces {
+    /* Flexbox */
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* .enlaces li {
+    list-style: none;
+}*/
+
+.menuItem {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/* Pseudoclases : hover> cuando el cursor esta encima */
+
+.menuItem a div:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    border-radius: 20px;
+    /*Color de la sombra: 1) derecha 2) abajo 3)arriba y abajo */
+    box-shadow: 2px 2px 6px rgb(230, 198, 18);
+}
+
+.contenido {
+    margin-top: 15px;
+    /* borde de el elemento: grosor tipo color */
+    border: 1px solid black;
+    /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
+    /* border-radius: 50px 30px 15px 5px; */
+    border-radius: 25px;
+    /* Color de fondo*/
+    /* background-color: antiquewhite;*/
+    /* Ancho */
+    width: 30%;
+    /* Alto */
+    height: 440px;
+    /* Margen exterior  */
+    margin-left: 30%;
+    /* margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5%; */
+    /* Margen interior */
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    /* Fondo con degradado de colores */
+    /* background: linear-gradient(-100deg, #b63030, #3c11a1, #e90acb, #c06d00);*/
+    background: linear-gradient(to top, #ad1a1a, #e7a10b, #e68d18);
+    /*background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);*/
+    box-shadow: 5px 5px 15px black;
+    padding: 0.5%;
+}
+
+.inombre {
+    border: 0.5px solid blue;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.inombre:hover {
+    border: 2px solid blue;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.iasunto {
+    border: 0.5px solid blue;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.iasunto:hover {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.iseleccion {
+    border: 0.5px solid blue;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.iseleccion:hover {
+    border: 2px solid rgb(255, 0, 234);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+.form-register .boton {
+    width: 50%;
+    background: #7505a1;
+    border: ghostwhite;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    margin: 11px 0;
+    font-size: 14px;
+  }
+
+.form-register .boton:hover {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
